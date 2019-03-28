@@ -1,0 +1,74 @@
+body{
+	background:url(d4.jpg);
+	background-color:black;
+	
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.box{
+	 width: 380px;
+    height: 580px;
+    background:#fff  ;
+    color:#000;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+	border-radius: 3%;
+	
+	
+}
+.box input{
+	width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:0px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  
+}
+
+.box input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+
+
+.box h2{
+	position:relative;
+	left:60px;
+}
+  
+.box input[type=submit]{
+	font-size: 15px;
+			width: 125px;
+			height: 20x;
+			border-radius: 20px;
+			line-height: 19px;
+			text-align: center;
+			border: 1px solid #FC8200;
+			display: black;
+			text-decoration: none;
+			color: #FC8200;
+			position:relative;
+			overflow:hidden;
+			background: transparent;
+			transition: .9s;
+			left:55px;
+			padding:8px;
+}
+.box input[type=submit]:hover{
+	border: 1px solid #FC8200;
+			color: #fff;
+			background-color:#FC8200;
+}
+.box .cancel a{
+    font-family:courier;
+}
+
+	

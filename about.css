@@ -1,0 +1,20 @@
+body{
+	background:url(about1.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family:courier;
+	color:white;
+	font-size:120%;
+}
+.skg img{
+	position:relative;
+	left:1150px;
+	bottom:100px;
+	border-radius:10px;
+}
+.skg p{
+	position:relative;
+	left:1110px;
+	bottom:100px;
+}
